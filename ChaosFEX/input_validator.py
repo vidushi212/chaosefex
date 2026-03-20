@@ -85,12 +85,7 @@ def _check_features(feat_mat):
     ):
         print("> ERROR: feat_mat should be 2D array of dtype float64 ...")
         return False
-
-    # Check ranges of values in input feature matrix
-    if feat_mat.min() < 0 or feat_mat.max() > 1:
-        print("> ERROR: feat_mat should be scaled between 0 & 1 ...")
-        return False
-
+    
     return True
 
 

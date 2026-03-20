@@ -136,3 +136,6 @@ apiconfig.py
 # pytype static type analyzer
 .pytype/
 
+chaos_features.csv
+chaos_features_variable.npz
+roi_dataset_with_pheno.csv
